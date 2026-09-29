@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "dev.enjarai.collared.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "BackgroundRendererMixin",
+    "ChatScreenMixin",
+    "ClientPlayerEntityMixin",
+    "HeldItemFeatureRendererMixin",
+    "HeldItemRendererMixin",
+    "HighPriorityMinecraftClientMixin",
+    "LivingEntityRendererMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "PlayerEntityModelMixin",
+    "WorldRendererMixin"
+  ]
+}

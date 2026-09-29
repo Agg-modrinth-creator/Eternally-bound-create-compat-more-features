@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "bell_collar",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "collared:magenta_collar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "collared:magenta_bell_collar"
+  }
+}

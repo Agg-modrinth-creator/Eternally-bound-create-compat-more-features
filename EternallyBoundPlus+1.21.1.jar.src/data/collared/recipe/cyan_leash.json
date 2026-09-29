@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "leash",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "w": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "pattern": [
+    "i",
+    "w",
+    "s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "collared:cyan_leash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "values": [
+    "collared:white_collar",
+    "collared:orange_collar",
+    "collared:magenta_collar",
+    "collared:light_blue_collar",
+    "collared:yellow_collar",
+    "collared:lime_collar",
+    "collared:pink_collar",
+    "collared:gray_collar",
+    "collared:light_gray_collar",
+    "collared:cyan_collar",
+    "collared:purple_collar",
+    "collared:blue_collar",
+    "collared:brown_collar",
+    "collared:green_collar",
+    "collared:red_collar",
+    "collared:black_collar",
+    "#collared:bell_collars"
+  ]
+}

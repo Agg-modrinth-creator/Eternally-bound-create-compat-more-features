@@ -1,0 +1,11 @@
+{
+  "collar_bell": {
+    "subtitle": "trickster.subtitle.collar_bell",
+    "sounds": [
+      "collared:collar_bell_1",
+      "collared:collar_bell_2",
+      "collared:collar_bell_3",
+      "collared:collar_bell_4"
+    ]
+  }
+}

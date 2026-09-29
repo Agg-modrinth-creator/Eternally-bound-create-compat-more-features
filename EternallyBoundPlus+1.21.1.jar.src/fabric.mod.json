@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "collared",
+  "version": "1.1.0+g3f5667c3+1.21.1",
+  "name": "Eternally Bound",
+  "description": "A clean and functional collar mod.",
+  "authors": [
+    "enjarai"
+  ],
+  "contact": {
+    "homepage": "https://enjarai.dev/",
+    "sources": "https://codeberg.org/enjarai/eternally-bound",
+    "issues": "https://codeberg.org/enjarai/eternally-bound/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/collared/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.enjarai.collared.Collared"
+    ],
+    "client": [
+      "dev.enjarai.collared.CollaredClient"
+    ],
+    "fabric-datagen": [
+      "dev.enjarai.collared.datagen.ModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "collared.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "accessories": "*",
+    "owo": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/sable-companion-fabric-1.21.1-1.6.0.jar"
+    }
+  ]
+}

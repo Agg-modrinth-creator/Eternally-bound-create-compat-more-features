@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "collar",
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "w": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "pattern": [
+    " w ",
+    "wlw",
+    " w "
+  ],
+  "result": {
+    "count": 1,
+    "id": "collared:blue_collar"
+  }
+}
